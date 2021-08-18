@@ -6,7 +6,7 @@
   
 ✅ Software development using C, C++, C#, PHP, Python, JavaScript, Kotlin, Swift, Java  
 ✅ Relational and noSQL database management   
-✅ Cyper security and penetration testing  
+✅ Cybersecurity and penetration testing  
 ✅ Systems architecture  
 ✅ AI and machine learning  
 ✅ PCB design and electronic product design  
