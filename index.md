@@ -1,33 +1,33 @@
-<p>🕋 Muslim</P>
-<p>👨🏻‍💻 Software developer interested in EdTech and life automation</P>
-<p>👨🏻‍⚕ Fifth-year medical student</P>
-<br>
-# Areas of expertise
-<br>
-<p>✅ Software development using C, C++, C#, PHP, Python, JavaScript, Kotlin, Swift, Java</P>
-<p>✅ Relational and noSQL database management </P>
-<p>✅ Cyper security and penetration testing</P>
-<p>✅ Systems architecture</P>
-<p>✅ AI and machine learning</P>
-<p>✅ PCB design and electronic product design</P>
-<br>
-# Interests and hobbies
-<br>
-<p>🥋 Kung-fu</P>
-<p>📚 Reading</P>
-<p>🖌️ Graphic design</P>
-<p>🚀 Space exploration</P>
-<p>📸 Photography</P>
-<p>🔎 Scientific research</P>
-<p>↗️ Business administration</P>
-<br>
-# Purpose in life
-<br>
-<p>☘️ Aiming and working to end the zionist occupation of Palestine and achieve an Islamic state ☘️</P>
-<br>
-# Reach me out
-<br>
-<p>✉️ <a href="mailto:omargamal.tech@gmail.com?">omargamal.tech@gmail.com</a></P>
+🕋 Muslim  
+👨🏻‍💻 Software developer interested in EdTech and life automation  
+👨🏻‍⚕ Fifth-year medical student  
+  
+# Areas of expertise  
+  
+✅ Software development using C, C++, C#, PHP, Python, JavaScript, Kotlin, Swift, Java  
+✅ Relational and noSQL database management   
+✅ Cyper security and penetration testing  
+✅ Systems architecture  
+✅ AI and machine learning  
+✅ PCB design and electronic product design  
+  
+# Interests and hobbies  
+  
+🥋 Kung-fu  
+📚 Reading  
+🖌️ Graphic design  
+🚀 Space exploration  
+📸 Photography  
+🔎 Scientific research  
+↗️ Business administration  
+  
+# Purpose in life  
+  
+☘️ Aiming and working to end the zionist occupation of Palestine and achieve an Islamic state ☘️  
+  
+# Reach me out  
+  
+✉️ <a href="mailto:omargamal.tech@gmail.com?">omargamal.tech@gmail.com</a>  
 <!---
 omargoda/omargoda is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
