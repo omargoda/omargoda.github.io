@@ -1,12 +1,12 @@
 # These are supported funding model platforms
 
-github: # [omargoda]
-patreon: # omargoda
+github: [omargoda]
+patreon: omargoda
 open_collective: omargoda
-ko_fi: # omargoda
-tidelift: # npm/omargoda
-community_bridge: # omargoda
-liberapay: # omargoda
-issuehunt: # omargoda
-otechie: # omargoda
-custom: # ['https://www.paypal.com/omargoda/']
+ko_fi: omargoda
+tidelift: npm/omargoda
+community_bridge: omargoda
+liberapay: omargoda
+issuehunt: omargoda
+otechie: omargoda
+custom: ['https://www.paypal.com/omargoda/']
