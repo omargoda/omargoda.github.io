@@ -2,7 +2,7 @@
 <p>👨🏻‍💻 Software developer interested in EdTech and life automation</P>
 <p>👨🏻‍⚕ Fifth-year medical student</P>
 <br>
-<h1>Areas of expertise</h1>
+# Areas of expertise
 <br>
 <p>✅ Software development using C, C++, C#, PHP, Python, JavaScript, Kotlin, Swift, Java</P>
 <p>✅ Relational and noSQL database management </P>
@@ -11,7 +11,7 @@
 <p>✅ AI and machine learning</P>
 <p>✅ PCB design and electronic product design</P>
 <br>
-<h1>Interests and hobbies</h1>
+# Interests and hobbies
 <br>
 <p>🥋 Kung-fu</P>
 <p>📚 Reading</P>
@@ -21,11 +21,11 @@
 <p>🔎 Scientific research</P>
 <p>↗️ Business administration</P>
 <br>
-<h1>Purpose in life</h1>
+# Purpose in life
 <br>
 <p>☘️ Aiming and working to end the zionist occupation of Palestine and achieve an Islamic state ☘️</P>
 <br>
-<h1>Reach me out</h1>
+# Reach me out
 <br>
 <p>✉️ <a href="mailto:omargamal.tech@gmail.com?">omargamal.tech@gmail.com</a></P>
 <!---
