@@ -1,38 +1,880 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Omar, Gamal, Goda, medical, student, software, engineer, blog">
+    <meta name="description" content="Omar G. Goda's Blog Home Page">
+    <meta name="author" content="Omar G. Goda">
+
+    <meta property="og:title" content="Omar G. Goda" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://omar.helwanmed.com/" />
+    <meta property="og:image" content="https://omar.helwanmed.com/media/images/logo.png" />
+    <meta property="og:image:secure_url" content="https://secure.example.com/ogp.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:image:alt" content="A golden logo of O and G" />
+
     <title>Omar G. Goda</title>
+    <link rel="shortcut icon" href="./media/images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:normal,bold,bolditalic,italic,100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-  <Body>
-    <p>🕋 Muslim</p>
-    <p>👨🏻‍💻 Software developer interested in EdTech and life automation</p>
-    <p>👨🏻‍⚕ Fifth-year medical student</p>
-    <br>
-    <h1>Areas of expertise</h1>
-    <br>
-    <p>✅ Software development using C, C++, C#, PHP, Python, JavaScript, Kotlin, Swift, Java</p>
-    <p>✅ Relational and noSQL database management </p>
-    <p>✅ Cybersecurity and penetration testing</p>
-    <p>✅ Systems architecture</p>
-    <p>✅ AI and machine learning</p>
-    <p>✅ PCB design and electronic product design</p>
-    <br>
-    <h1>Interests and hobbies</h1>
-    </p>
-    <p>🥋 Kung-fu</p>
-    <p>📚 Reading</p>
-    <p>🖌️ Graphic design</p>
-    <p>🚀 Space exploration</p>
-    <p>📸 Photography</p>
-    <p>🔎 Scientific research</p>
-    <p>↗️ Business administration</h1>
-    <br>
-    <h1>Purpose in life</h1>
-    </p>
-    <p>☘️ Aiming and working to end the zionist occupation of Palestine and achieve an Islamic state ☘️</p>
-    <br>
-    <h1>Reach me out</h1>
-    <br>
-    <p>✉️ <a href="mailto:omargamal.tech@gmail.com?">omargamal.tech@gmail.com</a></p>
+  <body>
+    <div class="navbar">
+      <div class="circle" style="margin: 10px 5px;">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <img src="./media/images/logo.png" alt="">
+      <div class="navbar_menu">
+        <div href=".home" class="active_link">Home</div>
+        <div href=".courses">Courses</div>
+        <div href=".blog">Blog</div>
+        <div href=".publications">Publications</div>
+        <div href=".videos">Videos</div>
+        <div href=".readings">Readings</div>
+        <div href=".events">Events</div>
+        <div href=".about">About</div>
+      </div>
+      <button>
+        <img src="./media/images/handshake.svg" alt="">
+        <p>Hire Me</p>
+      </button>
+      <button>
+        <img src="./media/images/user_icon.svg" alt="">
+        <p>Login / signup</p>
+      </button>
+    </div>
+    <div class="responsive_navbar">
+      <div href=".home">Home</div>
+      <div href=".courses">Courses</div>
+      <div href=".blog">Blog</div>
+      <div href=".publications">Publications</div>
+      <div href=".videos">Videos</div>
+      <div href=".readings">Readings</div>
+      <div href=".events">Events</div>
+      <div href=".about">About</div>
+      <button>
+        <img src="./media/images/user_icon.svg" alt="">
+        <p>Login / signup</p>
+      </button>
+      <button>
+        <img src="./media/images/handshake.svg" alt="">
+        <p>Hire Me</p>
+      </button>
+      <p>© omargoda.com. All rights reserved.</p>
+    </div>
+    <div class="popups">
+      <div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <form autocomplete="on" method="post" id="login_form">
+        <div>
+          <div></div>
+          <h1>Verified</h1>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+            <defs>
+              <circle id="armMaskPath" cx="100" cy="100" r="100" />
+            </defs>
+            <clipPath id="armMask">
+              <use xlink:href="#armMaskPath" overflow="visible" />
+            </clipPath>
+            <circle cx="100" cy="100" r="100" fill="#a9ddf3" />
+            <g class="body">
+              <path fill="#FFFFFF" d="M193.3,135.9c-5.8-8.4-15.5-13.9-26.5-13.9H151V72c0-27.6-22.4-50-50-50S51,44.4,51,72v50H32.1 c-10.6,0-20,5.1-25.8,13l0,78h187L193.3,135.9z" />
+              <path fill="none" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoinn="round" d="M193.3,135.9 c-5.8-8.4-15.5-13.9-26.5-13.9H151V72c0-27.6-22.4-50-50-50S51,44.4,51,72v50H32.1c-10.6,0-20,5.1-25.8,13" />
+              <path fill="#DDF1FA" d="M100,156.4c-22.9,0-43,11.1-54.1,27.7c15.6,10,34.2,15.9,54.1,15.9s38.5-5.8,54.1-15.9 C143,167.5,122.9,156.4,100,156.4z" />
+            </g>
+            <g class="earL">
+              <g class="outerEar" fill="#ddf1fa" stroke="#3a5e77" stroke-width="2.5">
+                <circle cx="47" cy="83" r="11.5" />
+                <path d="M46.3 78.9c-2.3 0-4.1 1.9-4.1 4.1 0 2.3 1.9 4.1 4.1 4.1" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <g class="earHair">
+                <rect x="51" y="64" fill="#FFFFFF" width="15" height="35" />
+                <path d="M53.4 62.8C48.5 67.4 45 72.2 42.8 77c3.4-.1 6.8-.1 10.1.1-4 3.7-6.8 7.6-8.2 11.6 2.1 0 4.2 0 6.3.2-2.6 4.1-3.8 8.3-3.7 12.5 1.2-.7 3.4-1.4 5.2-1.9" fill="#fff" stroke="#3a5e77" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+            </g>
+            <g class="earR">
+              <g class="outerEar" fill="#ddf1fa" stroke="#3a5e77" stroke-width="2.5">
+                <circle cx="155" cy="83" r="11.5" />
+                <path d="M155.7 78.9c2.3 0 4.1 1.9 4.1 4.1 0 2.3-1.9 4.1-4.1 4.1" stroke-linecap="round" stroke-linejoin="round" />
+              </g>
+              <g class="earHair">
+                <rect x="131" y="64" fill="#FFFFFF" width="20" height="35" />
+                <path d="M148.6 62.8c4.9 4.6 8.4 9.4 10.6 14.2-3.4-.1-6.8-.1-10.1.1 4 3.7 6.8 7.6 8.2 11.6-2.1 0-4.2 0-6.3.2 2.6 4.1 3.8 8.3 3.7 12.5-1.2-.7-3.4-1.4-5.2-1.9" fill="#fff" stroke="#3a5e77" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </g>
+            </g>
+            <path class="chin" d="M84.1 121.6c2.7 2.9 6.1 5.4 9.8 7.5l.9-4.5c2.9 2.5 6.3 4.8 10.2 6.5 0-1.9-.1-3.9-.2-5.8 3 1.2 6.2 2 9.7 2.5-.3-2.1-.7-4.1-1.2-6.1" fill="none" stroke="#3a5e77" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path class="face" fill="#DDF1FA" d="M134.5,46v35.5c0,21.815-15.446,39.5-34.5,39.5s-34.5-17.685-34.5-39.5V46" />
+            <path class="hair" fill="#FFFFFF" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+              d="M81.457,27.929 c1.755-4.084,5.51-8.262,11.253-11.77c0.979,2.565,1.883,5.14,2.712,7.723c3.162-4.265,8.626-8.27,16.272-11.235 c-0.737,3.293-1.588,6.573-2.554,9.837c4.857-2.116,11.049-3.64,18.428-4.156c-2.403,3.23-5.021,6.391-7.852,9.474" />
+            <g class="eyebrow">
+              <path fill="#FFFFFF"
+                d="M138.142,55.064c-4.93,1.259-9.874,2.118-14.787,2.599c-0.336,3.341-0.776,6.689-1.322,10.037 c-4.569-1.465-8.909-3.222-12.996-5.226c-0.98,3.075-2.07,6.137-3.267,9.179c-5.514-3.067-10.559-6.545-15.097-10.329 c-1.806,2.889-3.745,5.73-5.816,8.515c-7.916-4.124-15.053-9.114-21.296-14.738l1.107-11.768h73.475V55.064z" />
+              <path fill="#FFFFFF" stroke="#3A5E77" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                d="M63.56,55.102 c6.243,5.624,13.38,10.614,21.296,14.738c2.071-2.785,4.01-5.626,5.816-8.515c4.537,3.785,9.583,7.263,15.097,10.329 c1.197-3.043,2.287-6.104,3.267-9.179c4.087,2.004,8.427,3.761,12.996,5.226c0.545-3.348,0.986-6.696,1.322-10.037 c4.913-0.481,9.857-1.34,14.787-2.599" />
+            </g>
+            <g class="eyeL">
+              <circle cx="85.5" cy="78.5" r="3.5" fill="#3a5e77" />
+              <circle cx="84" cy="76" r="1" fill="#fff" />
+            </g>
+            <g class="eyeR">
+              <circle cx="114.5" cy="78.5" r="3.5" fill="#3a5e77" />
+              <circle cx="113" cy="76" r="1" fill="#fff" />
+            </g>
+            <g class="mouth">
+              <path class="mouthBG" fill="#617E92"
+                d="M100.2,101c-0.4,0-1.4,0-1.8,0c-2.7-0.3-5.3-1.1-8-2.5c-0.7-0.3-0.9-1.2-0.6-1.8 c0.2-0.5,0.7-0.7,1.2-0.7c0.2,0,0.5,0.1,0.6,0.2c3,1.5,5.8,2.3,8.6,2.3s5.7-0.7,8.6-2.3c0.2-0.1,0.4-0.2,0.6-0.2 c0.5,0,1,0.3,1.2,0.7c0.4,0.7,0.1,1.5-0.6,1.9c-2.6,1.4-5.3,2.2-7.9,2.5C101.7,101,100.5,101,100.2,101z" />
+              <path style="display: none;" class="mouthSmallBG" fill="#617E92"
+                d="M100.2,101c-0.4,0-1.4,0-1.8,0c-2.7-0.3-5.3-1.1-8-2.5c-0.7-0.3-0.9-1.2-0.6-1.8 c0.2-0.5,0.7-0.7,1.2-0.7c0.2,0,0.5,0.1,0.6,0.2c3,1.5,5.8,2.3,8.6,2.3s5.7-0.7,8.6-2.3c0.2-0.1,0.4-0.2,0.6-0.2 c0.5,0,1,0.3,1.2,0.7c0.4,0.7,0.1,1.5-0.6,1.9c-2.6,1.4-5.3,2.2-7.9,2.5C101.7,101,100.5,101,100.2,101z" />
+              <path style="display: none;" class="mouthMediumBG" d="M95,104.2c-4.5,0-8.2-3.7-8.2-8.2v-2c0-1.2,1-2.2,2.2-2.2h22c1.2,0,2.2,1,2.2,2.2v2 c0,4.5-3.7,8.2-8.2,8.2H95z" />
+              <path style="display: none;" class="mouthLargeBG" d="M100 110.2c-9 0-16.2-7.3-16.2-16.2 0-2.3 1.9-4.2 4.2-4.2h24c2.3 0 4.2 1.9 4.2 4.2 0 9-7.2 16.2-16.2 16.2z" fill="#617e92" stroke="#3a5e77" stroke-linejoin="round"
+                stroke-width="2.5" />
+              <defs>
+                <path id="mouthMaskPath"
+                  d="M100.2,101c-0.4,0-1.4,0-1.8,0c-2.7-0.3-5.3-1.1-8-2.5c-0.7-0.3-0.9-1.2-0.6-1.8 c0.2-0.5,0.7-0.7,1.2-0.7c0.2,0,0.5,0.1,0.6,0.2c3,1.5,5.8,2.3,8.6,2.3s5.7-0.7,8.6-2.3c0.2-0.1,0.4-0.2,0.6-0.2 c0.5,0,1,0.3,1.2,0.7c0.4,0.7,0.1,1.5-0.6,1.9c-2.6,1.4-5.3,2.2-7.9,2.5C101.7,101,100.5,101,100.2,101z" />
+              </defs>
+              <clipPath id="mouthMask">
+                <use xlink:href="#mouthMaskPath" overflow="visible" />
+              </clipPath>
+              <g clip-path="url(#mouthMask)">
+                <g class="tongue">
+                  <circle cx="100" cy="107" r="8" fill="#cc4a6c" />
+                  <ellipse class="tongueHighlight" cx="100" cy="100.5" rx="3" ry="1.5" opacity=".1" fill="#fff" />
+                </g>
+              </g>
+              <path clip-path="url(#mouthMask)" class="tooth" style="fill:#FFFFFF;" d="M106,97h-4c-1.1,0-2-0.9-2-2v-2h8v2C108,96.1,107.1,97,106,97z" />
+              <path class="mouthOutline" fill="none" stroke="#3A5E77" stroke-width="2.5" stroke-linejoin="round"
+                d="M100.2,101c-0.4,0-1.4,0-1.8,0c-2.7-0.3-5.3-1.1-8-2.5c-0.7-0.3-0.9-1.2-0.6-1.8 c0.2-0.5,0.7-0.7,1.2-0.7c0.2,0,0.5,0.1,0.6,0.2c3,1.5,5.8,2.3,8.6,2.3s5.7-0.7,8.6-2.3c0.2-0.1,0.4-0.2,0.6-0.2 c0.5,0,1,0.3,1.2,0.7c0.4,0.7,0.1,1.5-0.6,1.9c-2.6,1.4-5.3,2.2-7.9,2.5C101.7,101,100.5,101,100.2,101z" />
+            </g>
+            <path class="nose" d="M97.7 79.9h4.7c1.9 0 3 2.2 1.9 3.7l-2.3 3.3c-.9 1.3-2.9 1.3-3.8 0l-2.3-3.3c-1.3-1.6-.2-3.7 1.8-3.7z" fill="#3a5e77" />
+            <g class="arms" clip-path="url(#armMask)">
+              <g class="armL">
+                <path fill="#ddf1fa" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M121.3 97.4L111 58.7l38.8-10.4 20 36.1z" />
+                <path fill="#ddf1fa" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"
+                  d="M134.4 52.5l19.3-5.2c2.7-.7 5.4.9 6.1 3.5.7 2.7-.9 5.4-3.5 6.1L146 59.7M160.8 76.5l19.4-5.2c2.7-.7 5.4.9 6.1 3.5.7 2.7-.9 5.4-3.5 6.1l-18.3 4.9M158.3 66.8l23.1-6.2c2.7-.7 5.4.9 6.1 3.5.7 2.7-.9 5.4-3.5 6.1l-23.1 6.2M150.9 58.4l26-7c2.7-.7 5.4.9 6.1 3.5.7 2.7-.9 5.4-3.5 6.1l-21.3 5.7" />
+                <path fill="#a9ddf3"
+                  d="M178.8 74.7l2.2-.6c1.1-.3 2.2.3 2.4 1.4.3 1.1-.3 2.2-1.4 2.4l-2.2.6-1-3.8zM180.1 64l2.2-.6c1.1-.3 2.2.3 2.4 1.4.3 1.1-.3 2.2-1.4 2.4l-2.2.6-1-3.8zM175.5 54.9l2.2-.6c1.1-.3 2.2.3 2.4 1.4.3 1.1-.3 2.2-1.4 2.4l-2.2.6-1-3.8zM152.1 49.4l2.2-.6c1.1-.3 2.2.3 2.4 1.4.3 1.1-.3 2.2-1.4 2.4l-2.2.6-1-3.8z" />
+                <path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M123.5 96.8c-41.4 14.9-84.1 30.7-108.2 35.5L1.2 80c33.5-9.9 71.9-16.5 111.9-21.8" />
+                <path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  d="M108.5 59.4c7.7-5.3 14.3-8.4 22.8-13.2-2.4 5.3-4.7 10.3-6.7 15.1 4.3.3 8.4.7 12.3 1.3-4.2 5-8.1 9.6-11.5 13.9 3.1 1.1 6 2.4 8.7 3.8-1.4 2.9-2.7 5.8-3.9 8.5 2.5 3.5 4.6 7.2 6.3 11-4.9-.8-9-.7-16.2-2.7M94.5 102.8c-.6 4-3.8 8.9-9.4 14.7-2.6-1.8-5-3.7-7.2-5.7-2.5 4.1-6.6 8.8-12.2 14-1.9-2.2-3.4-4.5-4.5-6.9-4.4 3.3-9.5 6.9-15.4 10.8-.2-3.4.1-7.1 1.1-10.9M97.5 62.9c-1.7-2.4-5.9-4.1-12.4-5.2-.9 2.2-1.8 4.3-2.5 6.5-3.8-1.8-9.4-3.1-17-3.8.5 2.3 1.2 4.5 1.9 6.8-5-.6-11.2-.9-18.4-1 2 2.9.9 3.5 3.9 6.2" />
+              </g>
+              <g class="armR">
+                <path fill="#ddf1fa" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5" d="M265.4 97.3l10.4-38.6-38.9-10.5-20 36.1z" />
+                <path fill="#ddf1fa" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"
+                  d="M252.4 52.4L233 47.2c-2.7-.7-5.4.9-6.1 3.5-.7 2.7.9 5.4 3.5 6.1l10.3 2.8M226 76.4l-19.4-5.2c-2.7-.7-5.4.9-6.1 3.5-.7 2.7.9 5.4 3.5 6.1l18.3 4.9M228.4 66.7l-23.1-6.2c-2.7-.7-5.4.9-6.1 3.5-.7 2.7.9 5.4 3.5 6.1l23.1 6.2M235.8 58.3l-26-7c-2.7-.7-5.4.9-6.1 3.5-.7 2.7.9 5.4 3.5 6.1l21.3 5.7" />
+                <path fill="#a9ddf3"
+                  d="M207.9 74.7l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM206.7 64l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM211.2 54.8l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8zM234.6 49.4l-2.2-.6c-1.1-.3-2.2.3-2.4 1.4-.3 1.1.3 2.2 1.4 2.4l2.2.6 1-3.8z" />
+                <path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M263.3 96.7c41.4 14.9 84.1 30.7 108.2 35.5l14-52.3C352 70 313.6 63.5 273.6 58.1" />
+                <path fill="#fff" stroke="#3a5e77" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  d="M278.2 59.3l-18.6-10 2.5 11.9-10.7 6.5 9.9 8.7-13.9 6.4 9.1 5.9-13.2 9.2 23.1-.9M284.5 100.1c-.4 4 1.8 8.9 6.7 14.8 3.5-1.8 6.7-3.6 9.7-5.5 1.8 4.2 5.1 8.9 10.1 14.1 2.7-2.1 5.1-4.4 7.1-6.8 4.1 3.4 9 7 14.7 11 1.2-3.4 1.8-7 1.7-10.9M314 66.7s5.4-5.7 12.6-7.4c1.7 2.9 3.3 5.7 4.9 8.6 3.8-2.5 9.8-4.4 18.2-5.7.1 3.1.1 6.1 0 9.2 5.5-1 12.5-1.6 20.8-1.9-1.4 3.9-2.5 8.4-2.5 8.4" />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <ul></ul>
+        <label for="login_email">Email / Phone Number</label>
+        <input type="text" id="login_email" name="login_email" form="login_form" required/>
+        <label for="login_password">Password</label>
+        <input type="password" id="login_password" name="login_password" form="login_form" required/>
+        <h1><span>Forgot Password?</span></h1>
+        <input type="submit" value="Login" name="login" form="login_form">
+        <h1>Not registered? <span>Sign Up</span></h1>
+      </form>
+      <form autocomplete="on" method="post" id="signup_form">
+        <div>
+          <div></div>
+          <h1>Registered</h1>
+        </div>
+        <ul></ul>
+        <div>
+          <div>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" form="signup_form" required/>
+          </div>
+          <div>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" form="signup_form" required/>
+          </div>
+        </div>
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="Male" form="signup_form" required/>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" form="signup_form" required/>
+        <label for="female">Female</label>
+        <label for="year">Date of Birth</label>
+        <div>
+          <select name="year" id="year">
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+            <option value="1990">1990</option>
+            <option value="1989">1989</option>
+            <option value="1988">1988</option>
+            <option value="1987">1987</option>
+            <option value="1986">1986</option>
+            <option value="1985">1985</option>
+            <option value="1984">1984</option>
+            <option value="1983">1983</option>
+            <option value="1982">1982</option>
+            <option value="1981">1981</option>
+            <option value="1980">1980</option>
+            <option value="1979">1979</option>
+            <option value="1978">1978</option>
+            <option value="1977">1977</option>
+            <option value="1976">1976</option>
+            <option value="1975">1975</option>
+            <option value="1974">1974</option>
+            <option value="1973">1973</option>
+            <option value="1972">1972</option>
+            <option value="1971">1971</option>
+            <option value="1970">1970</option>
+            <option value="1969">1969</option>
+            <option value="1968">1968</option>
+            <option value="1967">1967</option>
+            <option value="1966">1966</option>
+            <option value="1965">1965</option>
+            <option value="1964">1964</option>
+            <option value="1963">1963</option>
+            <option value="1962">1962</option>
+            <option value="1961">1961</option>
+            <option value="1960">1960</option>
+            <option value="1959">1959</option>
+            <option value="1958">1958</option>
+            <option value="1957">1957</option>
+            <option value="1956">1956</option>
+            <option value="1955">1955</option>
+            <option value="1954">1954</option>
+            <option value="1953">1953</option>
+            <option value="1952">1952</option>
+            <option value="1951">1951</option>
+            <option value="1950">1950</option>
+            <option value="1949">1949</option>
+            <option value="1948">1948</option>
+            <option value="1947">1947</option>
+            <option value="1946">1946</option>
+            <option value="1945">1945</option>
+            <option value="1944">1944</option>
+            <option value="1943">1943</option>
+            <option value="1942">1942</option>
+            <option value="1941">1941</option>
+            <option value="1940">1940</option>
+            <option value="1939">1939</option>
+            <option value="1938">1938</option>
+            <option value="1937">1937</option>
+            <option value="1936">1936</option>
+            <option value="1935">1935</option>
+            <option value="1934">1934</option>
+            <option value="1933">1933</option>
+            <option value="1932">1932</option>
+            <option value="1931">1931</option>
+            <option value="1930">1930</option>
+            <option value="1929">1929</option>
+            <option value="1928">1928</option>
+            <option value="1927">1927</option>
+            <option value="1926">1926</option>
+            <option value="1925">1925</option>
+            <option value="1924">1924</option>
+            <option value="1923">1923</option>
+            <option value="1922">1922</option>
+            <option value="1921">1921</option>
+            <option value="1920">1920</option>
+            <option value="1919">1919</option>
+            <option value="1918">1918</option>
+            <option value="1917">1917</option>
+            <option value="1916">1916</option>
+            <option value="1915">1915</option>
+            <option value="1914">1914</option>
+            <option value="1913">1913</option>
+            <option value="1912">1912</option>
+            <option value="1911">1911</option>
+            <option value="1910">1910</option>
+            <option value="1909">1909</option>
+            <option value="1908">1908</option>
+            <option value="1907">1907</option>
+            <option value="1906">1906</option>
+            <option value="1905">1905</option>
+            <option value="1904">1904</option>
+            <option value="1903">1903</option>
+            <option value="1902">1902</option>
+            <option value="1901">1901</option>
+            <option value="1900">1900</option>
+          </select>
+          <select name="month" id="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <select name="day" id="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value=24"">24</option>
+            <option value=25"">25</option>
+            <option value=26"">26</option>
+            <option value=27"">27</option>
+            <option value=28"">28</option>
+            <option value=29"">29</option>
+            <option value=30"">30</option>
+            <option value=31"">31</option>
+          </select>
+        </div>
+        <label for="signup_email">Contact Email</label>
+        <input type="email" id="signup_email" name="signup_email" form="signup_form" required/>
+        <label for="country_code">Phone Number</label>
+        <div>
+          <select id="country_code" name="country_code" form="signup_form" required>
+            <option value="1">Canada (+1)</option>
+            <option value="1">United States (+1)</option>
+            <option value="1242">Bahamas (+1 242)</option>
+            <option value="1246">Barbados (+1 246)</option>
+            <option value="1264">Anguilla (+1 264)</option>
+            <option value="1268">Antigua and Barbuda (+1 268)</option>
+            <option value="1284">British Virgin Islands (+1 284)</option>
+            <option value="1340">United States Virgin Islands (+1 340)</option>
+            <option value="1345">Cayman Islands (+1 345)</option>
+            <option value="1441">Bermuda (+1 441)</option>
+            <option value="1473">Grenada (+1 473)</option>
+            <option value="1649">Turks and Caicos Islands (+1 649)</option>
+            <option value="1658">Jamaica (+1 658)</option>
+            <option value="1664">Montserrat (+1 664)</option>
+            <option value="1670">Northern Mariana Islands (+1 670)</option>
+            <option value="1671">Guam (+1 671)</option>
+            <option value="1684">American Samoa (+1 684)</option>
+            <option value="1721">Sint Maarten (+1 721)</option>
+            <option value="1758">Saint Lucia (+1 758)</option>
+            <option value="1767">Dominica (+1 767)</option>
+            <option value="1784">Saint Vincent and the Grenadines (+1 784)</option>
+            <option value="1787">Puerto Rico (+1 787)</option>
+            <option value="1809">Dominican Republic (+1 809)</option>
+            <option value="1829">Dominican Republic (+1 829)</option>
+            <option value="1849">Dominican Republic (+1 849)</option>
+            <option value="1868">Trinidad and Tobago (+1 868)</option>
+            <option value="1869">Saint Kitts and Nevis (+1 869)</option>
+            <option value="1876">Jamaica (+1 876)</option>
+            <option value="1939">Puerto Rico (+1 939)</option>
+            <option value="20">Egypt (+20)</option>
+            <option value="211">South Sudan (+211)</option>
+            <option value="212">Morocco (+212)</option>
+            <option value="213">Algeria (+213)</option>
+            <option value="216">Tunisia (+216)</option>
+            <option value="218">Libya (+218)</option>
+            <option value="220">Gambia (+220)</option>
+            <option value="221">Senegal (+221)</option>
+            <option value="222">Mauritania (+222)</option>
+            <option value="223">Mali (+223)</option>
+            <option value="224">Guinea (+224)</option>
+            <option value="225">Ivory Coast (+225)</option>
+            <option value="226">Burkina Faso (+226)</option>
+            <option value="227">Niger (+227)</option>
+            <option value="228">Togo (+228)</option>
+            <option value="229">Benin (+229)</option>
+            <option value="230">Mauritius (+230)</option>
+            <option value="231">Liberia (+231)</option>
+            <option value="232">Sierra Leone (+232)</option>
+            <option value="233">Ghana (+233)</option>
+            <option value="234">Nigeria (+234)</option>
+            <option value="235">Chad (+235)</option>
+            <option value="236">Central African Republic (+236)</option>
+            <option value="237">Cameroon (+237)</option>
+            <option value="238">Cape Verde (+238)</option>
+            <option value="239">São Tomé and Príncipe (+239)</option>
+            <option value="240">Equatorial Guinea (+240)</option>
+            <option value="241">Gabon (+241)</option>
+            <option value="242">Republic of the Congo (+242)</option>
+            <option value="243">Democratic Republic of the Congo (+243)</option>
+            <option value="244">Angola (+244)</option>
+            <option value="245">Guinea-Bissau (+245)</option>
+            <option value="246">British Indian Ocean Territory (+246)</option>
+            <option value="247">Ascension Island (+247)</option>
+            <option value="248">Seychelles (+248)</option>
+            <option value="249">Sudan (+249)</option>
+            <option value="250">Rwanda (+250)</option>
+            <option value="251">Ethiopia (+251)</option>
+            <option value="252">Somalia (+252)</option>
+            <option value="253">Djibouti (+253)</option>
+            <option value="254">Kenya (+254)</option>
+            <option value="255">Tanzania (+255)</option>
+            <option value="25524">Zanzibar (+255 24)</option>
+            <option value="256">Uganda (+256)</option>
+            <option value="257">Burundi (+257)</option>
+            <option value="258">Mozambique (+258)</option>
+            <option value="260">Zambia (+260)</option>
+            <option value="261">Madagascar (+261)</option>
+            <option value="262">Réunion (+262)</option>
+            <option value="262269">Mayotte (+262 269)</option>
+            <option value="262639">Mayotte (+262 639)</option>
+            <option value="263">Zimbabwe (+263)</option>
+            <option value="264">Namibia (+264)</option>
+            <option value="265">Malawi (+265)</option>
+            <option value="266">Lesotho (+266)</option>
+            <option value="267">Botswana (+267)</option>
+            <option value="268">Eswatini (+268)</option>
+            <option value="269">Comoros (+269)</option>
+            <option value="27">South Africa (+27)</option>
+            <option value="290">Saint Helena (+290)</option>
+            <option value="2908">Tristan da Cunha (+290 8)</option>
+            <option value="291">Eritrea (+291)</option>
+            <option value="297">Aruba (+297)</option>
+            <option value="298">Faroe Islands (+298)</option>
+            <option value="299">Greenland (+299)</option>
+            <option value="30">Greece (+30)</option>
+            <option value="31">Netherlands (+31)</option>
+            <option value="32">Belgium (+32)</option>
+            <option value="33">France (+33)</option>
+            <option value="34">Spain (+34)</option>
+            <option value="350">Gibraltar (+350)</option>
+            <option value="351">Portugal (+351)</option>
+            <option value="352">Luxembourg (+352)</option>
+            <option value="353">Ireland (+353)</option>
+            <option value="354">Iceland (+354)</option>
+            <option value="355">Albania (+355)</option>
+            <option value="356">Malta (+356)</option>
+            <option value="357">Cyprus (+357)</option>
+            <option value="358">Finland (+358)</option>
+            <option value="35818">Åland Islands (+358 18)</option>
+            <option value="359">Bulgaria (+359)</option>
+            <option value="36">Hungary (+36)</option>
+            <option value="370">Lithuania (+370)</option>
+            <option value="371">Latvia (+371)</option>
+            <option value="372">Estonia (+372)</option>
+            <option value="373">Moldova (+373)</option>
+            <option value="374">Armenia (+374)</option>
+            <option value="37447">Artsakh (landlines) (+374 47)</option>
+            <option value="37497">Artsakh (mobile phones) (+374 97)</option>
+            <option value="375">Belarus (+375)</option>
+            <option value="376">Andorra (+376)</option>
+            <option value="377">Monaco (+377)</option>
+            <option value="378">San Marino (+378)</option>
+            <option value="380">Ukraine (+380)</option>
+            <option value="381">Serbia (+381)</option>
+            <option value="382">Montenegro (+382)</option>
+            <option value="383">Kosovo (+383)</option>
+            <option value="385">Croatia (+385)</option>
+            <option value="386">Slovenia (+386)</option>
+            <option value="387">Bosnia and Herzegovina (+387)</option>
+            <option value="389">North Macedonia (+389)</option>
+            <option value="39">Italy (+39)</option>
+            <option value="390549">San Marino (+39 0549)</option>
+            <option value="40">Romania (+40)</option>
+            <option value="41">Switzerland (+41)</option>
+            <option value="4191">Italy (+41 91)</option>
+            <option value="420">Czech Republic (+420)</option>
+            <option value="421">Slovakia (+421)</option>
+            <option value="423">Liechtenstein (+423)</option>
+            <option value="43">Austria (+43)</option>
+            <option value="44">United Kingdom (+44)</option>
+            <option value="441481">Guernsey (+44 1481)</option>
+            <option value="441534">Jersey (+44 1534)</option>
+            <option value="441624">Isle of Man (+44 1624)</option>
+            <option value="45">Denmark (+45)</option>
+            <option value="46">Sweden (+46)</option>
+            <option value="47">Norway (+47)</option>
+            <option value="4779">Svalbard (+47 79)</option>
+            <option value="48">Poland (+48)</option>
+            <option value="49">Germany (+49)</option>
+            <option value="500">Falkland Islands (+500)</option>
+            <option value="500">South Georgia and the South Sandwich Islands (+500)</option>
+            <option value="501">Belize (+501)</option>
+            <option value="502">Guatemala (+502)</option>
+            <option value="503">El Salvador (+503)</option>
+            <option value="504">Honduras (+504)</option>
+            <option value="505">Nicaragua (+505)</option>
+            <option value="506">Costa Rica (+506)</option>
+            <option value="507">Panama (+507)</option>
+            <option value="508">Saint-Pierre and Miquelon (+508)</option>
+            <option value="509">Haiti (+509)</option>
+            <option value="51">Peru (+51)</option>
+            <option value="52">Mexico (+52)</option>
+            <option value="53">Cuba (+53)</option>
+            <option value="54">Argentina (+54)</option>
+            <option value="55">Brazil (+55)</option>
+            <option value="56">Chile (+56)</option>
+            <option value="57">Colombia (+57)</option>
+            <option value="58">Venezuela (+58)</option>
+            <option value="590">Guadeloupe (+590)</option>
+            <option value="591">Bolivia (+591)</option>
+            <option value="592">Guyana (+592)</option>
+            <option value="593">Ecuador (+593)</option>
+            <option value="594">French Guiana (+594)</option>
+            <option value="595">Paraguay (+595)</option>
+            <option value="596">Martinique (+596)</option>
+            <option value="597">Suriname (+597)</option>
+            <option value="598">Uruguay (+598)</option>
+            <option value="5993">Sint Eustatius (+599 3)</option>
+            <option value="5994">Saba (+599 4)</option>
+            <option value="5997">Bonaire (+599 7)</option>
+            <option value="5999">Curaçao (+599 9)</option>
+            <option value="60">Malaysia (+60)</option>
+            <option value="61">Australia (+61)</option>
+            <option value="6189162">Cocos Islands (+61 8 9162)</option>
+            <option value="6189164">Christmas Island (+61 8 9164)</option>
+            <option value="62">Indonesia (+62)</option>
+            <option value="63">Philippines (+63)</option>
+            <option value="64">New Zealand (+64)</option>
+            <option value="64">Pitcairn Islands (+64)</option>
+            <option value="65">Singapore (+65)</option>
+            <option value="66">Thailand (+66)</option>
+            <option value="670">East Timor (+670)</option>
+            <option value="6721">Australian Antarctic Territory (+672 1)</option>
+            <option value="6723">Norfolk Island (+672 3)</option>
+            <option value="673">Brunei (+673)</option>
+            <option value="674">Nauru (+674)</option>
+            <option value="675">Papua New Guinea (+675)</option>
+            <option value="676">Tonga (+676)</option>
+            <option value="677">Solomon Islands (+677)</option>
+            <option value="678">Vanuatu (+678)</option>
+            <option value="679">Fiji (+679)</option>
+            <option value="680">Palau (+680)</option>
+            <option value="681">Wallis and Futuna (+681)</option>
+            <option value="682">Cook Islands (+682)</option>
+            <option value="683">Niue (+683)</option>
+            <option value="685">Samoa (+685)</option>
+            <option value="686">Kiribati (+686)</option>
+            <option value="687">New Caledonia (+687)</option>
+            <option value="688">Tuvalu (+688)</option>
+            <option value="689">French Polynesia (+689)</option>
+            <option value="690">Tokelau (+690)</option>
+            <option value="691">Federated States of Micronesia (+691)</option>
+            <option value="692">Marshall Islands (+692)</option>
+            <option value="7">Russia (+7)</option>
+            <option value="76">Kazakhstan (+7 6)</option>
+            <option value="77">Kazakhstan (+7 7)</option>
+            <option value="7840">Abkhazia (+7 840)</option>
+            <option value="7940">Abkhazia (+7 940)</option>
+            <option value="800">International Freephone (UIFN) (+800)</option>
+            <option value="808">Shared Cost Services (+808)</option>
+            <option value="81">Japan (+81)</option>
+            <option value="82">South Korea (+82)</option>
+            <option value="84">Vietnam (+84)</option>
+            <option value="850">North Korea (+850)</option>
+            <option value="852">Hong Kong (+852)</option>
+            <option value="853">Macau (+853)</option>
+            <option value="855">Cambodia (+855)</option>
+            <option value="856">Laos (+856)</option>
+            <option value="86">China (+86)</option>
+            <option value="870">Inmarsat "SNAC" service (+870)</option>
+            <option value="878">Universal Personal Telecommunications services (+878)</option>
+            <option value="879">National non-commercial purposes (+879)</option>
+            <option value="880">Bangladesh (+880)</option>
+            <option value="881">Global Mobile Satellite System (+881)</option>
+            <option value="882">International Networks (+882)</option>
+            <option value="883">International Networks (+883)</option>
+            <option value="886">Taiwan (+886)</option>
+            <option value="888">Telecommunications for Disaster Relief by OCHA (+888)</option>
+            <option value="90">Turkey (+90)</option>
+            <option value="90392">Northern Cyprus (+90 392)</option>
+            <option value="91">India (+91)</option>
+            <option value="92">Pakistan (+92)</option>
+            <option value="92582">Azad Kashmir (+92 582)</option>
+            <option value="92581">Gilgit Baltistan (+92 581)</option>
+            <option value="93">Afghanistan (+93)</option>
+            <option value="94">Sri Lanka (+94)</option>
+            <option value="95">Myanmar (+95)</option>
+            <option value="960">Maldives (+960)</option>
+            <option value="961">Lebanon (+961)</option>
+            <option value="962">Jordan (+962)</option>
+            <option value="963">Syria (+963)</option>
+            <option value="964">Iraq (+964)</option>
+            <option value="965">Kuwait (+965)</option>
+            <option value="966">Saudi Arabia (+966)</option>
+            <option value="967">Yemen (+967)</option>
+            <option value="968">Oman (+968)</option>
+            <option value="970">Palestine (+970)</option>
+            <option value="971">United Arab Emirates (+971)</option>
+            <option value="973">Bahrain (+973)</option>
+            <option value="974">Qatar (+974)</option>
+            <option value="975">Bhutan (+975)</option>
+            <option value="976">Mongolia (+976)</option>
+            <option value="977">Nepal (+977)</option>
+            <option value="979">International Premium Rate Service (+979)</option>
+            <option value="98">Iran (+98)</option>
+            <option value="991">International Telecommunications Public Correspondence Service trial (ITPCS) (+991)</option>
+            <option value="992">Tajikistan (+992)</option>
+            <option value="993">Turkmenistan (+993)</option>
+            <option value="994">Azerbaijan (+994)</option>
+            <option value="995">Georgia (+995)</option>
+            <option value="99534">South Ossetia (+995 34)</option>
+            <option value="99544">Abkhazia (+995 44)</option>
+            <option value="996">Kyrgyzstan (+996)</option>
+            <option value="997">Kazakhstan (+997)</option>
+            <option value="998">Uzbekistan (+998)</option>
+          </select>
+          <input type="tel" id="phone_number" name="phone_number" form="signup_form" required/>
+        </div>
+        <label for="signup_password">Password</label>
+        <input type="password" id="signup_password" name="signup_password" form="signup_form" required/>
+        <label for="signup_repeat_password">Repeat Password</label>
+        <input type="password" id="signup_repeat_password" name="signup_repeat_password" form="signup_form" required/>
+        <input type="submit" value="Sign Up" name="signup" form="signup_form">
+        <h1>Already registered? <span href="">Login</span></h1>
+      </form>
+      <form autocomplete="on" method="post" id="forgot_password_form">
+        <ul></ul>
+        <label for="forgotten_email">Email Address</label>
+        <input type="email" id="forgotten_email" name="forgotten_email" form="forgot_password_form" required/>
+        <input type="submit" value="reset_password" name="reset_password" form="forgot_password_form">
+        <h1>Remembered your password? <span>Login</span></h1>
+      </form>
+      <form autocomplete="on" method="post" id="hire_me_form" style="z-index: 10;">
+        <div>
+          <div></div>
+          <h1>Success</h1>
+        </div>
+        <ul></ul>
+        <label for="contact_full_name">Full Name</label>
+        <input type="text" id="contact_full_name" name="contact_full_name" form="hire_me_form" required/>
+        <label for="contact_email">Contact Email</label>
+        <input type="email" id="contact_email" name="contact_email" form="hire_me_form" required/>
+        <label for="contact_work_category">Work Category</label>
+        <select id="contact_work_category" name="contact_work_category" form="hire_me_form" required>
+          <option value="" disabled selected hidden>Please Choose the Work Category...</option>
+          <option value="Software Development">Software Development</option>
+          <option value="Graphic Design">Graphic Design</option>
+          <option value="Video Making">Video Making</option>
+          <option value="Consultation">Consultation</option>
+          <option value="Private Tutorial">Private Tutorial</option>
+          <option value="Other">Other</option>
+        </select>
+        <label for="contact_message">Message</label>
+        <textarea type="text area" id="contact_message" name="contact_message" form="hire_me_form" required></textarea>
+        <input type="submit" value="Send" name="send" form="hire_me_form">
+      </form>
+    </div>
+    <section class="home">
+      <div class="background">
+        <img src="./media/images/background_1.svg" alt="" class="background_1">
+      </div>
+      <div>
+        <div class="text">
+          <p>Peace be upon you, and the mercy of God and His blessings, <br>I am <span>Omar G. Goda</span>,<br>A Muslim 5th year medical student and software developer living in Giza, Egypt.</p>
+        </div>
+        <div class="image">
+          <embed src="./media/images/home_image.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="courses">
+      <div>
+        <div class="image">
+          <img src="./media/images/courses_image.svg" alt="">
+        </div>
+        <div class="text">
+          <p>I present here courses related to software development, studying tips, and cybersecurity. <span>HURRY UP</span> and view my discounted courses <span>RIGHT NOW</span>.</p>
+          <div>
+            <div></div>
+            <a href="">
+              <div><img src="./media/images/course_1.svg" alt=""></div>
+              <p>Introduction to Programming</p>
+            </a>
+            <a href="">
+              <div><img src="./media/images/course_2.svg" alt=""></div>
+              <p>Comprehensive Web Development</p>
+            </a>
+            <a href="">
+              <div><img src="./media/images/course_3.svg" alt=""></div>
+              <p>Android Development</p>
+            </a>
+            <a href="">
+              <div><img src="./media/images/course_4.svg" alt=""></div>
+              <p>Cybersecurity and Ethical Hacking</p>
+            </a>
+            <a href="">
+              <div><img src="./media/images/course_5.svg" alt=""></div>
+              <p>How to Use ANKI Flashcards</p>
+            </a>
+            <a href="">
+              <div><img src="./media/images/course_6.svg" alt=""></div>
+              <p>How to Use Notion Note-taking App</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="background">
+        <img src="./media/images/background_2.svg" alt="" class="background_2">
+      </div>
+      <div>
+        <div class="text">
+          <p>Read many <a href="">blog posts</a> of my daily thoughts, behind the scenes of my projects, and reviews of others' work here in this platform. Subscribe now to my weekly email newsfeed:</p>
+          <form autocomplete="on" method="post" id="newsfeed">
+            <input type="email" name="email" placeholder="Enter your email address..." form="newsfeed">
+            <input type="submit" name="submit" value="Subscribe" form="newsfeed">
+          </form>
+        </div>
+        <div class="image">
+          <img src="./media/images/blog_image.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="publications">
+      <div>
+        <div class="image">
+          <img src="./media/images/publications_image.svg" alt="">
+        </div>
+        <div class="text">
+          <p>Every now and then, I try to publish my articles, case studies, and research papers in international journals. Click <a href="">here</a> to read my latest publications.</p>
+        </div>
+      </div>
+    </section>
+    <section class="videos">
+      <div>
+        <div class="text">
+          <p>Watch my video series where I upload weekly stories and tutorials about programming, graphic design, studying, productivity, and other stuff that I find interesting, so take care not to miss any of these. Click <a href="">here</a> to expolre my video library.</p>
+        </div>
+        <div class="image">
+          <img src="./media/images/videos_image.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="readings">
+      <div class="background">
+        <img src="./media/images/background_3.svg" alt="" class="background_3">
+      </div>
+      <div>
+        <div class="image">
+          <img src="./media/images/readings_image.svg" alt="">
+        </div>
+        <div class="text">
+          <p>Here I share my readings including my reading list, book summaries, notes and quotes from books, and book reviews, so if you are a book worm and share the same interest in reading I have, you can join my <a href="">book club</a> and participate in the great discussions over there.</p>
+        </div>
+      </div>
+    </section>
+    <section class="events">
+      <div>
+        <div class="text">
+          <p>Check my <a href="">events list</a> and look for helpful events that may inspire you and maybe oneday we can meet up there.</p>
+        </div>
+        <div class="image">
+          <img src="./media/images/events_image.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div>
+        <div class="image">
+          <img src="./media/images/about_image.svg" alt="">
+        </div>
+        <div class="text">
+          <p>Who I am<span>?</span></p>
+          <p>To know more about me, my education, certifications, skills, qualifications, awards, and hobbies,you can check my <a href="">curriculum vitae</a> page.</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>© omargoda.com. All rights reserved.</p>
+        <div>
+          <p>Follow me on social media</p>
+          <div>
+            <a href=""><img src="./media/images/linkedin.svg" alt=""></a>
+            <a href=""><img src="./media/images/youtube.svg" alt=""></a>
+            <a href=""><img src="./media/images/reddit.svg" alt=""></a>
+            <a href=""><img src="./media/images/behance.svg" alt=""></a>
+            <a href=""><img src="./media/images/pinterest.svg" alt=""></a>
+            <a href=""><img src="./media/images/dribbble.svg" alt=""></a>
+            <a href=""><img src="./media/images/twitch.svg" alt=""></a>
+            <a href=""><img src="./media/images/chaino.svg" alt=""></a>
+            <a href=""><img src="./media/images/facebook.svg" alt=""></a>
+            <a href=""><img src="./media/images/instagram.svg" alt=""></a>
+            <a href=""><img src="./media/images/snapchat.svg" alt=""></a>
+            <a href=""><img src="./media/images/github.svg" alt=""></a>
+            <a href=""><img src="./media/images/stackoverflow.svg" alt=""></a>
+            <a href=""><img src="./media/images/quora.png" alt=""></a>
+            <a href=""><img src="./media/images/tumblr.svg" alt=""></a>
+            <a href=""><img src="./media/images/vk.svg" alt=""></a>
+            <a href=""><img src="./media/images/whatsapp.svg" alt=""></a>
+            <a href=""><img src="./media/images/telegram.svg" alt=""></a>
+            <a href=""><img src="./media/images/skype.svg" alt=""></a>
+            <a href=""><img src="./media/images/rss.png" alt=""></a>
+          </div>
+        </div>
+        <div>
+          <p>Become a patron</p>
+          <div>
+            <img src="./media/images/patreon.svg" alt="">
+            <img src="./media/images/paypal.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <p>© omargoda.com. All rights reserved.</p>
+      <div href=".home">
+        <img src="./media/images/arrow_up_red.svg" alt="">
+      </div>
+    </footer>
+    <script src="./js/main.js" charset="utf-8"></script>
+    <script src="./js/form_1.js" charset="utf-8"></script>
+    <script src="./js/form_2.js" charset="utf-8"></script>
+    <script src="./js/lottie.js" charset="utf-8"></script>
   </body>
 </html>
